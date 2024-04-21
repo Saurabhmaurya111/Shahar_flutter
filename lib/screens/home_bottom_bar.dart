@@ -9,7 +9,7 @@ class HomeBottomBar extends StatelessWidget {
     return CurvedNavigationBar(
       backgroundColor: Colors.transparent,
       index: 2,
-      items: [
+      items:  const [
         Icon(
           Icons.person_outline,
           size: 30,

@@ -21,11 +21,11 @@ class WelcomeScreen extends StatelessWidget {
           color: Colors.transparent,
           child: SafeArea(
             child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 65, horizontal: 25),
+              padding:  const EdgeInsets.symmetric(vertical: 65, horizontal: 25),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                 const   Text(
                     'Enjoy',
                     style: TextStyle(
                         color: Colors.white,
@@ -61,12 +61,12 @@ class WelcomeScreen extends StatelessWidget {
                       Navigator.push(context , MaterialPageRoute(builder: (context) =>HomePage()) );
                     },
                     child: Ink(
-                      padding: EdgeInsets.all(15),
+                     padding:  const  EdgeInsets.all(15),
                       decoration: BoxDecoration(
                         color: Colors.white, 
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: Icon(Icons.arrow_forward_ios , 
+                      child:  const Icon(Icons.arrow_forward_ios , 
                       color: Colors.black54,
                       size: 20,
                       ),

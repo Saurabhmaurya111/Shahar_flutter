@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFEDF2F6),
       ),
-        home:WelcomeScreen(),
+        home: const WelcomeScreen(),
     );
   }
 }

@@ -8,14 +8,14 @@ class PostScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const  BoxDecoration(
         image: DecorationImage(
           image: AssetImage('images/city6.jpg'),
           fit: BoxFit.cover,
           opacity: 0.7,
         ),
       ),
-      child: Scaffold(
+      child:  const Scaffold(
         backgroundColor: Colors.transparent,
         appBar: PreferredSize(
             preferredSize: Size.fromHeight(90), 

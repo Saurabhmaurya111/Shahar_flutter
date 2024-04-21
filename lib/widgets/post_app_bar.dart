@@ -6,7 +6,7 @@ class PostAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(20),
+      padding:  const EdgeInsets.all(20),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -16,18 +16,18 @@ class PostAppBar extends StatelessWidget {
             },
             child: Container(
               // alignment: Alignment.center,
-              padding: EdgeInsets.all(10),
+              padding:  const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(15),
-                boxShadow: [
+                boxShadow:  const [
                   BoxShadow(
                     color: Colors.black26,
                     blurRadius: 6,
                   ),
                 ],
               ),
-              child: Icon(
+              child: const  Icon(
                 Icons.arrow_back_ios,
                 size: 28,
               ),
@@ -36,18 +36,18 @@ class PostAppBar extends StatelessWidget {
           InkWell(
             onTap: () {},
             child: Container(
-              padding: EdgeInsets.all(10),
+              padding:  const EdgeInsets.all(10),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(15),
-                boxShadow: [
+                boxShadow: const  [
                   BoxShadow(
                     color: Colors.black26,
                     blurRadius: 6,
                   ),
                 ],
               ),
-              child: Icon(
+              child: const  Icon(
                 Icons.favorite,
                 color: Colors.redAccent,
                 size: 28,
